@@ -1,0 +1,71 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Famous quotes",
+        "descriptions": "This project was the introduction to the tech degree and covered alot of the fundamentals of Javascript such as using loops, arrays and functions. This project helped me to solidify my knowledge of the basic elements of Javascript ",
+        "Technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://webdev-davidm.github.io/FullStack-Degree-Project1/.",
+        "github_link": "https://github.com/Webdev-DavidM/FullStack-Degree-Project1",
+        "image_urls": [
+          "/static/images/Cropped-images/550 x 550 images/Project1-main-screen.png",
+          "/static/images/Cropped-images/1200 x 550 images/Project1-landscape.png"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "Pagination",
+        "descriptions": "This project allowed me to work with functions which created pages of users. The number of users could be updated dynamically by using a function to create the correct number of pages. The search function uses Javascript and the DOM to hide users who dont match the search letter",
+        "Technologies": ["HTML", "CSS", "Javascript"],
+        "live_link": "https://webdev-davidm.github.io/FullStackProject2-pagination/",
+        "github_link": "https://github.com/Webdev-DavidM/FullStackProject2-pagination",
+        "image_urls": [
+          "/static/images/Cropped-images/550 x 550 images/project2-pagination.png",
+          "/static/images/Cropped-images/1200 x 550 images/project2-landscape.png"
+        ]
+      },
+      {
+        "id": 2,
+        "project_name": "Form validation",
+        "descriptions": "This project used html, css and Javascript  in the form. Elements on the form disappear and warning signs are displayed if certain options are selected. On submission the form is passed through a function which checks all the user inputs against regular expressions before submitting to a server. Any errors are highlighted to the user and form not submitted if there are errors. The project really help me to understand regular expressions ",
+        "Technologies": ["HTML", "CSS", "Javascript", "Regular expressions"],
+        "live_link": "https://webdev-davidm.github.io/FullStack-Project-3/.",
+        "github_link": "https://github.com/Webdev-DavidM/FullStack-Project-3",
+        "image_urls": [
+          "static/images/Cropped-images/550 x 550 images/Project3-form.png",
+          "static/images/Cropped-images/1200 x 550 images/project5-landscape.png"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": " Object-oriented game show",
+        "descriptions": "This project used objects and classes to create a guessing game show. This was challenging and a great introduction to the world of Object oriented programming",
+        "Technologies": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Object oriented Javascript"
+        ],
+        "live_link": "https://webdev-davidm.github.io/Project-4-OOp-game/.",
+        "github_link": "https://github.com/Webdev-DavidM/Project-4-OOp-game",
+        "image_urls": [
+          "/static/images/Cropped-images/550 x 550 images/project-4-phrase-game.png",
+          "/static/images/Cropped-images/1200 x 550 images/project4-landscape.png"
+        ]
+      },
+      {
+        "id": 4,
+        "project_name": "User profiles API",
+        "descriptions": "In this project I learned to make a request to a server for user API information. I used fetch, async/await, JSON and error handling to achieve this and created a modal window which allowed you to get additonal information and provide additional features. ",
+        "Technologies": ["HTML", "CSS", "Javascript", "APIs", "JSON"],
+        "live_link": "https://webdev-davidm.github.io/FS-Project-5-API/.",
+        "github_link": "https://github.com/Webdev-DavidM/FS-Project-5-API",
+        "image_urls": [
+          "/static/images/Cropped-images/550 x 550 images/project5-api.jpg",
+          "/static/images/Cropped-images/1200 x 550 images/project5-landscape.png"
+        ]
+      }
+    ]
+  }
+}

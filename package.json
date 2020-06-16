@@ -1,0 +1,27 @@
+{
+  "name": "project-6-express",
+  "version": "1.0.0",
+  "description": "Treehouse-project-6-fullstack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webdev-DavidM/Project6-express.git"
+  },
+  "author": "David Mulholland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webdev-DavidM/Project6-express/issues"
+  },
+  "homepage": "https://github.com/Webdev-DavidM/Project6-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

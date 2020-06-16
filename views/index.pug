@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      h1 David Mulholland- full stack web developer 
+
+      p.lead.text-light
+        | This is my portfolio showing what I can do for your business!
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each project in projects
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`)
+            h5= project.project_name
+            h5= project.id
+        
