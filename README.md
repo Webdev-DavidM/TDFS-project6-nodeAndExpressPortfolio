@@ -1,1 +1,1 @@
-This project uses Node and Express on the backend with Pug templates to present a portfolio website.
+This portfolio project uses node and express to create a portfolio website. The website is rendered to the browser using the pug template engine.
