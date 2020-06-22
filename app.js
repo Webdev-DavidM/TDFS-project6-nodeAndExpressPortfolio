@@ -4,8 +4,6 @@
 const express = require('express');
 const app = express();
 
-console.log(process.env);
-
 // Here I am putting requiring the json data
 // and putting it in a variable
 
@@ -14,7 +12,7 @@ const projects = data.projects;
 
 // static server for html and css files
 
-app.use('/static', express.static('public'));
+app.use('/static', express.static(__dirname + '/public'));
 
 // pug template
 
@@ -62,13 +60,9 @@ app.use(errorObject);
 app.use(errorHandler);
 
 // This makes the server listen so I can test it in the browser //
-const path = require('path');
 const port = process.env.PORT || 8080;
-
 app.listen(port, () => {
   console.log('listening on port 8080');
 });
-
-console.log(process.env);
 
 module.exports = app;
