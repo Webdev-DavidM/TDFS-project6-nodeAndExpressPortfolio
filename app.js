@@ -60,9 +60,11 @@ app.use(errorObject);
 app.use(errorHandler);
 
 // This makes the server listen so I can test it in the browser //
-
+const path = require('path');
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
   console.log('listening on port 8080');
 });
+
+console.log(process.env);
