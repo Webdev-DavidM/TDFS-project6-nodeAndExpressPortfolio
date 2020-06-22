@@ -70,3 +70,5 @@ app.listen(port, () => {
 });
 
 console.log(process.env);
+
+module.exports = app;
