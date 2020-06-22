@@ -4,6 +4,8 @@
 const express = require('express');
 const app = express();
 
+console.log(process.env);
+
 // Here I am putting requiring the json data
 // and putting it in a variable
 
