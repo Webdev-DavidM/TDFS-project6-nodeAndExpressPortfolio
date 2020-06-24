@@ -3,22 +3,26 @@
 
 const express = require('express');
 const app = express();
+const path = require('path');
+const port = process.env.PORT || 8080;
 
 // Here I am putting requiring the json data
 // and putting it in a variable
 
-const data = require('./data.json').data;
+const data = require(path.join(__dirname, 'data.json')).data;
 const projects = data.projects;
+//
+// static server for html and css files
 
-const port = process.env.PORT || 8080;
+app.use(express.static(path.join(__dirname, 'public')));
 
-// pug template
+app.set('views', path.join(__dirname, 'views'));
 
 app.set('view engine', 'pug');
 
-// static server for html and css files
+// pug template
 
-app.use(express.static(__dirname + '/public'));
+// app.set('view engine', 'pug');
 
 // This sets the routes for the homepage, about and index
 
@@ -30,7 +34,7 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-// dynamic routes to my projects //
+// // dynamic routes to my projects //
 
 app.get('/project/:id', (req, res) => {
   const projectId = req.params.id;
@@ -44,27 +48,23 @@ app.get('/project/:id', (req, res) => {
 
 // error handling //
 
-const errorObject = (req, res, next) => {
-  const err = new Error('err');
-  err.status = 404;
-  err.message = 'Oops cant find that project';
-  next(err);
-};
+// const errorObject = (req, res, next) => {
+//   const err = new Error('err');
+//   err.status = 404;
+//   err.message = 'Oops cant find that project';
+//   next(err);
+// };
 
-const errorHandler = (err, req, res, next) => {
-  res.render('error', { err });
-  return console.log(
-    'There is an error, we cant find the page you are looking for '
-  );
-};
+// const errorHandler = (err, req, res, next) => {
+//   res.render('error', { err });
+//   return console.log(
+//     'There is an error, we cant find the page you are looking for '
+//   );
+// };
 
-app.use(errorObject);
-app.use(errorHandler);
+// app.use(errorObject);
+// app.use(errorHandler);
 
 // This makes the server listen so I can test it in the browser //
 
-app.listen(port, () => {
-  console.log('listening on port 8080');
-});
-
-module.exports = app;
+app.listen(port, () => console.log('listening'));

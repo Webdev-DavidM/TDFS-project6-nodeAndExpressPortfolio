@@ -9,8 +9,8 @@
         "live_link": "https://webdev-davidm.github.io/FullStack-Degree-Project1/.",
         "github_link": "https://github.com/Webdev-DavidM/FullStack-Degree-Project1",
         "image_urls": [
-          "/static/images/Cropped-images/550 x 550 images/Project1-main-screen.png",
-          "/static/images/Cropped-images/1200 x 550 images/Project1-landscape.png"
+          "/images/Cropped-images/550 x 550 images/Project1-main-screen.png",
+          "/images/Cropped-images/1200 x 550 images/Project1-landscape.png"
         ]
       },
       {
@@ -21,8 +21,8 @@
         "live_link": "https://webdev-davidm.github.io/FullStackProject2-pagination/",
         "github_link": "https://github.com/Webdev-DavidM/FullStackProject2-pagination",
         "image_urls": [
-          "/static/images/Cropped-images/550 x 550 images/project2-pagination.png",
-          "/static/images/Cropped-images/1200 x 550 images/project2-landscape.png"
+          "/images/Cropped-images/550 x 550 images/project2-pagination.png",
+          "/images/Cropped-images/1200 x 550 images/project2-landscape.png"
         ]
       },
       {
@@ -33,8 +33,8 @@
         "live_link": "https://webdev-davidm.github.io/FullStack-Project-3/.",
         "github_link": "https://github.com/Webdev-DavidM/FullStack-Project-3",
         "image_urls": [
-          "static/images/Cropped-images/550 x 550 images/Project3-form.png",
-          "static/images/Cropped-images/1200 x 550 images/project5-landscape.png"
+          "/images/Cropped-images/550 x 550 images/Project3-form.png",
+          "/images/Cropped-images/1200 x 550 images/project5-landscape.png"
         ]
       },
       {
@@ -50,8 +50,8 @@
         "live_link": "https://webdev-davidm.github.io/Project-4-OOp-game/.",
         "github_link": "https://github.com/Webdev-DavidM/Project-4-OOp-game",
         "image_urls": [
-          "/static/images/Cropped-images/550 x 550 images/project-4-phrase-game.png",
-          "/static/images/Cropped-images/1200 x 550 images/project4-landscape.png"
+          "/images/Cropped-images/550 x 550 images/project-4-phrase-game.png",
+          "/images/Cropped-images/1200 x 550 images/project4-landscape.png"
         ]
       },
       {
@@ -62,8 +62,8 @@
         "live_link": "https://webdev-davidm.github.io/FS-Project-5-API/.",
         "github_link": "https://github.com/Webdev-DavidM/FS-Project-5-API",
         "image_urls": [
-          "/static/images/Cropped-images/550 x 550 images/project5-api.jpg",
-          "/static/images/Cropped-images/1200 x 550 images/project5-landscape.png"
+          "/images/Cropped-images/550 x 550 images/project5-api.jpg",
+          "/images/Cropped-images/1200 x 550 images/project5-landscape.png"
         ]
       }
     ]
