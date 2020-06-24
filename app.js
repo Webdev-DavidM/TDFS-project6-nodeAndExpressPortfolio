@@ -22,8 +22,6 @@ app.set('view engine', 'pug');
 
 // pug template
 
-// app.set('view engine', 'pug');
-
 // This sets the routes for the homepage, about and index
 
 app.get('/', (req, res) => {
