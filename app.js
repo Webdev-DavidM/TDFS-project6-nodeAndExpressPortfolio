@@ -10,13 +10,15 @@ const app = express();
 const data = require('./data.json').data;
 const projects = data.projects;
 
-// static server for html and css files
-
-app.use('/static', express.static(__dirname + '/public'));
+const port = process.env.PORT || 8080;
 
 // pug template
 
 app.set('view engine', 'pug');
+
+// static server for html and css files
+
+app.use(express.static(__dirname + '/public'));
 
 // This sets the routes for the homepage, about and index
 
@@ -60,7 +62,7 @@ app.use(errorObject);
 app.use(errorHandler);
 
 // This makes the server listen so I can test it in the browser //
-const port = process.env.PORT || 8080;
+
 app.listen(port, () => {
   console.log('listening on port 8080');
 });
